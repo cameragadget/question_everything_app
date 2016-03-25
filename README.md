@@ -1,4 +1,4 @@
-# question_everything_app
+# Question Everything
 
 :tada:
 
