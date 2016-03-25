@@ -79,6 +79,7 @@ header {
   text-transform: uppercase;
 }
 
+header h1 > a,
 header h1 > a:link,
 header h1 > a:visited,
 header h1 > a:hover,
