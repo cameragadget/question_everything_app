@@ -1,1 +1,18 @@
-<h1>questions....</h1>
+<div class="questionnaire-view login-view">
+  <div class="panel panel-default">
+    <div class="panel-header"><h3>Create a Question</h3></div>
+    <div class="panel-body">
+      <form ng-submit="vm.createQuestion();" class="form-inline">
+        <input ng-model="vm.question.title" id="question-title" class="form-control" type="text" required placeholder="How do you feel about vaccines?">
+        <button type="submit" class="form-submit btn btn-primary">Save</button>
+      </form>
+    </div>
+  </div>
+
+  <div ng-repeat="question in vm.questions">
+  <div>
+    <p>{{question.title}}</p>
+  </div>
+  </div>
+
+</div>
